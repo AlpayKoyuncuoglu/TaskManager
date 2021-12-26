@@ -1,0 +1,41 @@
+.tab ul{
+    padding:10px;
+    background: rgb(5, 104, 233);
+    display: inline-block;
+    border-radius: 2px;
+    margin: 0;
+}
+
+.tab ul li{
+    display: inline-block;
+    list-style-type: none;
+    border-right: 2px solid #fff;
+    color: #fff;
+    font-size: 16px;
+    padding: 0 24px;
+    font-weight: 600;
+    cursor: pointer;
+    text-align: center;
+    position: relative;
+}
+
+.tab ul li:last-child{
+    border-right: none;
+}
+.color{
+    color:#191a15!important;
+}
+
+.tab ul li:hover{
+    color: #68b8dd!important;
+}
+.content{
+    background: rgb(253,250,250);  
+    padding: 20px;
+    border:1px solid rgb(183, 208, 240);
+    
+}
+.content-value h2{
+    font-size: 22px;
+    font-weight: 600;
+}   
